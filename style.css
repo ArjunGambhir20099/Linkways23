@@ -764,9 +764,9 @@ input:checked + label svg{
     height: 25px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #3D3F40;
+    border: 1px solid #1D202E;
     text-transform: capitalize;
-    background: #FFFFFF;
+    background: #1D202E;
     color: #FFFFFF;
     outline: none;
     margin-right:20pt;
@@ -776,10 +776,10 @@ input:checked + label svg{
 input[type=file]::file-selector-button {
   margin-right: 20px;
   border: none;
-  background: #3D3F40;
+  background: #1D202E;
   padding: 10px 20px;
   border-radius: 10px;
-  color: grey;
+  color: White;
   font-family: 'Montserrat';
   cursor: pointer;
   transition: background .2s ease-in-out;
