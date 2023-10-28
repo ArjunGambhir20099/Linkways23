@@ -327,9 +327,9 @@ body
     padding-right: 2px;
 }
 
-/*input{
+.fav input{
     display: none;
-}*/
+}
 
 label svg {
     fill: none;
@@ -463,9 +463,9 @@ input:checked + label svg{
     padding-right: 2px;
 }
 
-/*input{
+.fav input{
     display: none;
-}*/
+}
 
 label svg {
     fill: none;
