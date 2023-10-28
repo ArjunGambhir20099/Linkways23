@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <title>Tech Syncdicate</title>
+        <link rel="stylesheet" href="/products/product.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+    </head>
+    <body>
+        <header class="navbar">
+            <img src="###" class="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#home" onclick="window.location.href='/about/about.html'">Home</a></li>
+                    <li><a href="#about" class="clicked">Shop</a></li>
+                    <li><a href="#faq" onclick="window.location.href='###'">FindMy</a></li>
+                    <li><a href="#faq" onclick="window.location.href='###'">Profile</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="###"><button>Book Now</button></a>
+        </header>
+
+
+        <section id="prodetails" class="product">
+            <div class="single-pro-details">
+                <button class="btn" onclick="window.location.href='/shop/shop.html'"><i class="bx bx-arrow-back"></i></button>
+                <h4 class="product-title">Pikachu Plushie Camera</h4>
+                <span>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                    <li>Very Good Product</li>
+                    <li>Ekdum Nice Nice</li>
+                    <li>Pls Lelo Yaar</li>
+                </span>
+                <button class="button" onclick="window.location.href='###'">Buy Now</button>
+            </div>
+            <div class="single-pro-image">
+                <div class="proname"><h6>Sky Camera</h6></div>
+                <model-viewer src="/product1.gltf" shadow-intensity="1" auto-rotate camera-controls touch-action="pan-y"></model-viewer>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="/images/logo.png" class="logo">
+    
+                    <h4><strong>Subscribe to our newsletter to be notified about our latest developments.</strong></h4>
+                    <form>
+                        <input type="email" placeholder="Enter E-Mail Address" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </form>
+                </div>
+            
+                <div class="col">
+                    <h4><strong>Links</strong></h4>
+                    <ul>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Home</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">About Us</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Jobs</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col">
+                    <h4><strong>News</strong></h4>
+                    <ul>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">FAQ</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Media</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Blog</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Articles</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col">
+                    <h4><strong>Legal</strong></h4>
+                    <ul>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Terms</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Privacy Policy</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Cookies License</a></li>
+                        <li><a class="small-text" href="https://www.youtube.com/watch?v=Eer3YnRx_d8">Hail Core</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    
+        <script>
+           var arrows = document.querySelectorAll('.down-arrow');
+           var firstSection = document.getElementById('home');
+           function checkScrollPosition() {
+                if (window.scrollY >= firstSection.offsetTop) {
+                   arrows.forEach(function(arrow) {
+                       arrow.style.display = 'none';
+                   });
+               } else {
+                    arrows.forEach(function(arrow) {
+                       arrow.style.display = 'block';
+                   });
+               }
+           }
+            window.addEventListener('load', checkScrollPosition);
+           window.addEventListener('scroll', checkScrollPosition);
+        </script>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    
+    
+    </body>
+</html>
