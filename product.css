@@ -1,0 +1,253 @@
+@font-face{
+    font-family: 'Product Sans';
+    src: url(/fonts/Product\ Sans\ Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+    background: rgb(15, 15, 15);
+}
+
+header{
+    background-color: rgb(15, 15, 15);
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;  
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 45px;
+}
+
+.nav_links li a{
+    font-family: 'Product Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(96, 118, 197);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    opacity: 1;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(96, 118, 197);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    color: white;
+}
+
+button:hover {
+  box-shadow: 0 0.5em 0.6em -0.4em rgb(96, 118, 197);
+  transform: translateY(-0.3em);
+}
+
+.navbar{
+    align-items: center;
+    z-index: 9999;
+}
+
+.nav_links li a.clicked {
+    opacity: 1;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    background: rgb(96, 118, 197);
+    font-size: 13px;
+    line-height: 20px;
+    padding: 50px 0 0px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo{
+    margin-bottom: 30px;
+    width: 80px;
+}
+
+.col h4{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: black;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+form input{
+    background: transparent;
+    color: black;
+    border: 0;
+    outline: none;
+    width: 100%;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button i.fa-solid{
+    font-size: 16px;
+    color: black;
+}
+
+
+.single-pro-image model-viewer{
+    height: 80vh;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+#prodetails{
+    display: flex;
+}
+
+#prodetails .btn{
+    width: 60px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    font-size: 20px;
+    background: none;
+    color: lightgrey;
+    opacity: 0.7;
+    transition: 0.32s;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details .btn:hover{
+    border: 1px solid white;
+    color: white;
+    opacity: 1;
+}
+
+#prodetails .single-pro-image{
+    background-color: rgb(15, 15, 15);
+    width: 50%;
+    margin-left: 80px;
+    height: 100vh;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    height: 100vh;
+    padding-top: 30px;
+    margin-left: 120px;
+    align-items: center;
+    color: white;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+}
+
+#prodetails .single-pro-image .proname{
+    padding-top: 50px;
+    width: 120px;
+    margin-left: 50px;
+    border-bottom: 3px solid rgb(96, 118, 197);
+}
+
+.proname h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details .button{
+    padding: 10px 20px;
+    margin: 80px 0 200px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(96, 118, 197);
+    cursor: pointer;
+    opacity: 0.7;
+    border: none;
+    border-radius: 5px;
+    color: lightgrey;
+    transition: 0.32s;
+}
+
+#prodetails .single-pro-details .button:hover{
+    opacity: 1;
+    background-color: rgb(96, 118, 197);
+    color: white;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}

@@ -1,0 +1,400 @@
+@font-face{
+    font-family: 'Product Sans';
+    src: url(/fonts/Product\ Sans\ Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+    background: rgb(15, 15, 15);
+}
+
+header{
+    background: rgb(15, 15, 15);
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;  
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 45px;
+}
+
+.nav_links li a{
+    font-family: 'Product Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(96, 118, 197);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    opacity: 1;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(96, 118, 197);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    color: white;
+}
+
+button:hover {
+  box-shadow: 0 0.5em 0.6em -0.4em rgb(96, 118, 197);
+  transform: translateY(-0.3em);
+}
+
+.navbar{
+    align-items: center;
+    z-index: 9999;
+}
+
+.nav_links li a.clicked {
+    opacity: 1;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    background: rgb(96, 118, 197);
+    font-size: 13px;
+    line-height: 20px;
+    padding: 50px 0 0px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo{
+    margin-bottom: 30px;
+    width: 80px;
+}
+
+.col h4{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: black;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+form button .fa-solid{
+    font-size: 16px;
+    color: black;
+}
+
+form input{
+    background: transparent;
+    color: black;
+    border: 0;
+    outline: none;
+    width: 100%;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button i.fa-solid{
+    font-size: 16px;
+    color: black;
+}
+
+
+#page-header{
+    background-image: url('/images/banner.png');
+    height: 80vh;
+    background-size: cover;
+}
+
+.titles{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    width: 40%;
+}
+
+#page-header .titles h2{
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 950;
+    font-size: 70px;
+    line-height: 90px;
+    text-align: right;
+}
+
+
+.pageheader .down-arrow{
+    padding-top: 10px;
+    position: relative;
+    height: 16px;
+    opacity: 0;
+    animation: arrow 1s ease 0.25s infinite;
+}
+
+.pageheader .container{
+    border: 2px solid white;
+    width: 50px;
+    height: 60px;
+    border-radius: 20px;
+    right: 10%;
+    position: absolute;
+}
+
+.pageheader .down-arrow::before,
+.pageheader .down-arrow::after{
+    content: "";
+    width: 21px;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.pageheader .down-arrow::before{
+    transform: rotate(45deg) translateX(25%);;
+}
+
+.pageheader .down-arrow::after{
+    transform: rotate(-45deg) translateX(-25%);;
+}
+
+@keyframes arrow{
+    from{
+        opacity: 0;
+        top: -25px;
+    }
+    to{
+        opacity: 0;
+        top: 0px;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+#section2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: rgba(24, 20, 24, 1);
+}
+
+#section2 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px 50px 70px;
+    flex-wrap: wrap;
+    background-color: rgba(24, 20, 24, 1);
+}
+
+#section2 .pro {
+    background: rgba(42,38,42,255);
+    opacity: 0.8;
+    width: 300px;
+    height: 300px;
+    padding: 10px 12px;
+    border: 1px solid  rgba(217, 217, 217, 0);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 50px 0;
+    transition: 0.5s ease;
+}
+
+#section2 .pro1 {
+    background: rgba(42,38,42,255);
+    opacity: 0.8;
+    width: 300px;
+    height: 350px;
+    padding: 10px 12px;
+    border: 1px solid  rgba(217, 217, 217, 0);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 50px 0;
+    transition: 0.5s ease;
+}
+#section2 .pro1:hover{
+    opacity: 1;
+    border: 1px solid white;
+}
+
+#section2 .pro:hover{
+    opacity: 1;
+    border: 1px solid white;
+}
+
+#section2 .text-center1{
+    padding-left: 75px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    background-color: rgba(24, 20, 24, 1);
+}
+
+#section2 .text-center{
+    padding-top: 60px;
+    padding-left: 75px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    background-color: rgba(24, 20, 24, 1);
+}
+
+.pro h5{
+    margin: 60px 10px 10px 15px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.pro .image{
+    width: 200px;
+}
+
+.pro1 h5{
+    margin: 60px 10px 10px 15px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.pro1 .image{
+    width: 250px;
+}
+
+.fav{
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+input{
+    display: none;
+}
+
+label svg {
+    fill: none;
+    stroke: rgba(151, 90, 172, 1);
+    stroke-width: 2;
+}
+
+input:checked + label svg{
+    fill: rgba(151, 90, 172, 1);
+    stroke: rgba(151, 90, 172, 1);
+    -webkit-animation: heartButton 1s;
+        animation: heartButton 1s;
+}
+
+@-webkit-keyframes heartButton{
+    0%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25%{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    50%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    75%{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes heartButton{
+    0%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25%{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3); 
+    }
+
+    50%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    75%{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
