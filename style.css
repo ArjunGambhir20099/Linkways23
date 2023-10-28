@@ -888,7 +888,7 @@ accent-color:#354C9E; background-color: #F5EAD9 !important;
 /***************************************************************/
 
 footer{
-    width: 100%;
+    width: 50%;
     position: absolute;
     background: rgb(96, 118, 197);
     font-size: 13px;
@@ -964,7 +964,7 @@ form input{
 ::placeholder
 {
     color: white !important;
-    font-family: 'Montserrat'; font-size: 16px;
+    font-family: 'Montserrat'; font-size: 5px;
 	
 }
 
