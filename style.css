@@ -438,7 +438,6 @@ input:checked + label svg{
     margin: 40px 10px 10px 15px;
     color: white;
     font-size: 15px;
-    text-align: center;
     font-weight: lighter;
 }
 
