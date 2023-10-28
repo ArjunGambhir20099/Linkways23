@@ -749,10 +749,10 @@ input:checked + label svg{
     height: 40px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #d1d1d1;
+    border: 1px solid #1D202E;
     text-transform: capitalize;
-    background: whitesmoke;
-    color: #a9a9a9;
+    background: #1D202E;
+    color: #FFFFFF;
     outline: none;
     margin-right:20pt;
     font-size: 2.5vh;
