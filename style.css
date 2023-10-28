@@ -327,9 +327,9 @@ body
     padding-right: 2px;
 }
 
-input{
+/*input{
     display: none;
-}
+}*/
 
 label svg {
     fill: none;
@@ -463,9 +463,9 @@ input:checked + label svg{
     padding-right: 2px;
 }
 
-input{
+/*input{
     display: none;
-}
+}*/
 
 label svg {
     fill: none;
@@ -794,7 +794,6 @@ input[type=file]::file-selector-button {
   cursor: pointer;
   transition: background .2s ease-in-out;
 }
-
 
 
 
