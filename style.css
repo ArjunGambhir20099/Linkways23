@@ -963,7 +963,7 @@ form input{
 }
 ::placeholder
 {
-    color:black !important;
+    color: white !important;
     font-family: 'Montserrat';
 }
 
