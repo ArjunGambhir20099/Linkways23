@@ -762,7 +762,7 @@ input:checked + label svg{
 #itemname,#month,#itemdetail,#contact{
     width: 100%;
     height: 25px;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     border: 1px solid #1D202E;
     text-transform: capitalize;
