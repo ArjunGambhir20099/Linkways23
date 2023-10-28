@@ -327,11 +327,10 @@ body
     padding-right: 2px;
 }
 
-/*
 input{
     display: none;
 }
-*/
+
 label svg {
     fill: none;
     stroke: rgba(151, 90, 172, 1);
@@ -403,21 +402,21 @@ input:checked + label svg{
 
 /***************************************************************/
 
-#shopsection3 {
+#shopsection2 {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(24, 20, 24, 1);
     padding-left: 75px;
 }
 
-#shopsection3 .pro-container{
+#shopsection2 .pro-container{
     display: flex;
     justify-content: space-between;
     background-color: rgba(24, 20, 24, 1);
 }
 
 
-#shopsection3 .pro1 {
+#shopsection2 .pro {
     background: rgba(42,38,42,255);
     opacity: 0.8;
     width: 400px;
@@ -430,7 +429,7 @@ input:checked + label svg{
     transition: 0.5s ease;
 
 }
-#shopsection3 .pro1:hover{
+#shopsection2 .pro:hover{
     opacity: 1;
     border: 1px solid white;
 }
@@ -447,16 +446,28 @@ input:checked + label svg{
     width: 100%;
 }
 
+.pro1 h5{
+    margin: 40px 10px 10px 15px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.pro1 .image{
+    width: 100%;
+}
+
 .fav{
     text-align: right;
     padding-top: 2px;
     padding-right: 2px;
 }
-/*
+
 input{
     display: none;
 }
-*/
+
 label svg {
     fill: none;
     stroke: rgba(151, 90, 172, 1);
