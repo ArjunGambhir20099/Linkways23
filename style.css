@@ -790,7 +790,7 @@ input[type=file]::file-selector-button {
   padding: 10px 20px;
   border-radius: 10px;
   color: White;
-  font-family: 'Product sans';
+  font-family: 'Montserrat';
   cursor: pointer;
   transition: background .2s ease-in-out;
 }
