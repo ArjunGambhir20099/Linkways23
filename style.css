@@ -403,21 +403,21 @@ input:checked + label svg{
 
 /***************************************************************/
 
-#shopsection3 {
+#shopsection2 {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(24, 20, 24, 1);
     padding-left: 75px;
 }
 
-#shopsection3 .pro-container{
+#shopsection2 .pro-container{
     display: flex;
     justify-content: space-between;
     background-color: rgba(24, 20, 24, 1);
 }
 
 
-#shopsection3 .pro1 {
+#shopsection2 .pro {
     background: rgba(42,38,42,255);
     opacity: 0.8;
     width: 400px;
@@ -430,12 +430,12 @@ input:checked + label svg{
     transition: 0.5s ease;
 
 }
-#shopsection3 .pro1:hover{
+#shopsection2 .pro:hover{
     opacity: 1;
     border: 1px solid white;
 }
 
-.pro1 h5{
+.pro h5{
     margin: 40px 10px 10px 15px;
     color: white;
     font-size: 15px;
@@ -443,7 +443,7 @@ input:checked + label svg{
     font-weight: lighter;
 }
 
-.pro1 .image{
+.pro .image{
     width: 100%;
 }
 
