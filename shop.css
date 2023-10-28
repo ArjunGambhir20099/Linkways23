@@ -102,13 +102,16 @@ footer{
     flex-basis: 15%;
 }
 
-.logo{
+.col .logo{
     margin-bottom: 30px;
     width: 80px;
+		font-weight: bold;
+		font-size: 3em;
+		color:#000000;
+
 }
 
 .col h4{
-    width: fit-content;
     margin-bottom: 40px;
     position: relative;
     color: black;
@@ -125,13 +128,14 @@ footer ul li a{
 }
 
 form{
-    padding-bottom: 15px;
+    padding-bottom: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
     margin-bottom: 50px;
 }
+
 
 form button .fa-solid{
     font-size: 16px;
@@ -145,7 +149,6 @@ form input{
     outline: none;
     width: 100%;
 }
-
 ::placeholder
 {
     color:black !important;
