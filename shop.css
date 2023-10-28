@@ -235,7 +235,7 @@ form button i.fa-solid{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 40px;
-    background-color: rgba(24, 20, 24, 1);
+    background-color:  rgb(15, 15, 15);
 }
 
 #section2 .pro-container{
@@ -243,11 +243,11 @@ form button i.fa-solid{
     justify-content: space-between;
     padding: 0px 70px 50px 70px;
     flex-wrap: wrap;
-    background-color: rgba(24, 20, 24, 1);
+    background-color:  rgb(15, 15, 15);
 }
 
 #section2 .pro {
-    background: rgba(42,38,42,255);
+    background: rgb(58, 62, 78);
     opacity: 0.8;
     width: 300px;
     height: 300px;
@@ -260,7 +260,7 @@ form button i.fa-solid{
 }
 
 #section2 .pro1 {
-    background: rgba(42,38,42,255);
+    background: rgb(58, 62, 78);
     opacity: 0.8;
     width: 300px;
     height: 350px;
@@ -286,7 +286,7 @@ form button i.fa-solid{
     font-size: 20px;
     color: white;
     text-align: left;
-    background-color: rgba(24, 20, 24, 1);
+    background-color: rgb(15, 15, 15);
 }
 
 #section2 .text-center{
@@ -295,7 +295,7 @@ form button i.fa-solid{
     font-size: 20px;
     color: white;
     text-align: left;
-    background-color: rgba(24, 20, 24, 1);
+    background-color: rgb(15, 15, 15);
 }
 
 .pro h5{
