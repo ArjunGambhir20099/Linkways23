@@ -146,6 +146,12 @@ form input{
     width: 100%;
 }
 
+::placeholder
+{
+    color:black !important;
+    font-family: 'Montserrat';
+}
+
 form button{
     background: transparent;
     border: 0;
