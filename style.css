@@ -755,9 +755,9 @@ input:checked + label svg{
     display: flex;
 }
 #searchbar{
-    width: 75%;
-    height: 40px;
-    padding: 10px;
+    width: 85%;
+    height: 50px;
+    padding: 5px;
     border-radius: 10px;
     border: 1px solid #1D202E;
     text-transform: capitalize;
