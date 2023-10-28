@@ -766,8 +766,8 @@ input:checked + label svg{
     border-radius: 10px;
     border: 1px solid #3D3F40;
     text-transform: capitalize;
-    background: #3D3F40;
-    color: #a9a9a9;
+    background: #1D202E;
+    color: #FFFFFF;
     outline: none;
     margin-right:20pt;
     font-size: 2.5vh;
