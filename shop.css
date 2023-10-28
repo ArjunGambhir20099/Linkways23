@@ -334,13 +334,13 @@ input{
 
 label svg {
     fill: none;
-    stroke: rgba(151, 90, 172, 1);
+    stroke:  rgb(96, 118, 197);
     stroke-width: 2;
 }
 
 input:checked + label svg{
-    fill: rgba(151, 90, 172, 1);
-    stroke: rgba(151, 90, 172, 1);
+    fill:  rgb(96, 118, 197);
+    stroke: r rgb(96, 118, 197);
     -webkit-animation: heartButton 1s;
         animation: heartButton 1s;
 }
