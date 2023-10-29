@@ -794,7 +794,7 @@ textarea:focus,input:focus{color:#354c9e;}
 
 .inputs
 {
-	margin-top:3vw;
+	margin-top:3vw; width:100%;
 }
 
 .userin
