@@ -281,8 +281,9 @@ h2{
 
 .titles1{
     position: absolute;
-    left: 55%;
-    top: 10%;
+    font-size: 100px;
+    left: 50%;
+    top: 55%;
     width: 40%;
 }
 
@@ -309,7 +310,7 @@ h2{
     width: 50px;
     height: 60px;
     border-radius: 20px;
-    right: 10%;
+    right: 50%;
     position: absolute;
 }
 
