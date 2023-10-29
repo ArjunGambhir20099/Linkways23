@@ -900,7 +900,7 @@ form input{
 }
 ::placeholder
 {
-    color: white !important;
+    color: black !important;
     font-family: 'Montserrat'; font-size: 10px;
 	
 }
