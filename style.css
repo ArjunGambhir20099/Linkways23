@@ -748,7 +748,7 @@ textarea:focus,input:focus{color:#354c9e;}
 .row
 {
     display:flex;
-    height:80vh;
+    height:35%;
     justify-content:space-around;
     align-items: center;
 }
