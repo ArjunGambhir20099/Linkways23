@@ -281,7 +281,6 @@ h2{
 
 .titles1{
     position: absolute;
-    font-size: 100px;
     left: 50%;
     top: 55%;
     width: 40%;
@@ -289,6 +288,7 @@ h2{
 
 #page-header .titles1 h2{
     margin-bottom: 15px;
+    font-size: 100px;
     color: white;
     font-weight: 950;
     font-size: 70px;
