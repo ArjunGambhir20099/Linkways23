@@ -917,5 +917,92 @@ form button i.fa-solid{
     font-size: 16px;
     color: black;
 }
+
 /***************************************************************/
 /***************************************************************/
+
+/***************************************************************/
+/************New Section 1 Added Nov***************************/
+
+#section1
+{
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
+
+#section1L
+{
+    height:90%;
+    width:47%;
+    background-color: #1D1E24;
+    border-radius: 20pt;
+    transition:0.5s ease;
+    box-shadow: 1pt 1pt 1pt solid grey;
+}
+#section1R
+{
+    height:90%;
+    width:47%;
+    background-color: black;
+    box-shadow: 1pt 1pt 1pt solid grey;
+    display: inline-grid;
+    align-items: center;
+ }
+
+#section1L:hover{border:1pt solid white;}
+
+#section1LI
+{
+    background-image: url('meme.png');
+    background-size: cover;
+    height:50%;
+    width:100%;
+}
+#section1LT
+{
+    padding-top:20pt;
+    padding-left:5%;
+    color:white;
+    width:95%;
+    line-height: 1.5;
+    font-size:1.25vw;
+}
+
+.cardsR
+{
+    height:95%;
+    background-color: #1D1E24;
+    width:100%;
+    border-radius:20pt;
+    transition: 0.5s ease;
+    box-shadow: 1pt 1pt 1pt solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.cardsRT
+{
+    padding-left:5%;
+    width:50%;
+
+}
+.cardsRT p
+{
+    padding-top: 5%;
+    font-size: 1.75vh;
+}
+.cardsR:hover{box-shadow:1pt 1pt 1pt dimgray;}
+
+.cardsRI{height:90%;width:40%;border-radius: 20pt;background-image: url('meme.png');background-size: cover;align-content: left}
+
+/***************************************************************/
+/***********Feedback New Section Added Nov**********************/
+
+
